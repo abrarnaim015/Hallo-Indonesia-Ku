@@ -106,6 +106,7 @@ header{
     clear: both;
     overflow: hidden;
     display: inline-flex;
+    z-index: 100;
     -webkit-box-shadow: 0px 10px 5px 0px rgba(54,63,235,0.79);
     -moz-box-shadow: 0px 10px 5px 0px rgba(54,63,235,0.79);
     box-shadow: 0px 10px 5px 0px rgba(54,63,235,0.79);
@@ -247,7 +248,7 @@ audio{
 .game3 button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
-    margin-top: -10%;
+    margin-top: 25%;
     margin-left: 25%;
     padding: 1em 3em 1em 3em;
     border-radius: 10px;
@@ -355,8 +356,17 @@ button:hover{
     box-shadow: 0px 0px 34px 13px rgba(146, 48, 48, 0.83);
 }
 
+
+.display-none{
+    display: none;
+}
+
 .jawaban img{
     margin-top: 5%;
-    width: 30em;
+    margin-left: 25%;
+    width: 50%;
+    z-index: 100;
     background-color: rgb(255, 166, 0, 0.8);
 }
+
+

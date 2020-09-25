@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>ONE-P$ECE</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js.js"></script>
+    
 </head>
 <body class="home-nami">
     <header>
@@ -30,19 +30,18 @@
         </div>
     </header>
     <dir class="jawaban">
-        <img class="namiT" src="img/trueNami.png" alt="selamat">
+        <img class="namiT display-none" src="img/trueNami.png" alt="selamat">
+        <!-- <img class="namiF display-none" src="img/namiF.png" alt="selamat"> -->
     </dir>
     <div class="game3">
-        <button class="jwbGame3benar" onclick="true" type="button" value="trueGame3">NAMI</button>
-        <button class="jwbGame3salah" onclick="false" type="button" value="falseGame3">NAIM</button>
+        <button class="jwbGame3benar" onclick="jwbnami()" type="button" value="trueGame3">NAMI</button>
+        <button class="jwbGame3salah" onclick="jwbnami()" type="button" value="falseGame3">NAIM</button>
     </div>
     <footer>
         <div>
             <a href="usopp.html"><img class="next1" src="img/panah.png" alt="Next Level"></a>
         </div>
     </footer>
+    <script src="js.js"></script>
 </body>
-<script>
-    // console.log(document.getElementsByClassName('game3'))
-</script>
 </html>
